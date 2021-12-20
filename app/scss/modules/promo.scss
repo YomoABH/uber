@@ -1,0 +1,50 @@
+.promo {
+	min-height: 800px;
+	background: url(../../img/bg/uber_bg.jpg) center center/cover no-repeat;
+	&__content {
+		padding: 140px 0px 0px 0px;
+		text-align: center;
+	}
+
+	&__title {
+		font-weight: 900;
+		font-size: 60px;
+		line-height: 60px;
+		text-transform: uppercase;
+		margin-bottom: 10px;
+	}
+
+	&__subtitle {
+		font-weight: 700;
+		font-size: 36px;
+		line-height: 36px;
+		text-transform: uppercase;
+		margin-bottom: 25px;
+	}
+	&__text {
+		font-size: 18px;
+		line-height: 24px;
+		margin-bottom: 110px;
+		p {
+			margin-bottom: 30px;
+		}
+	}
+
+	&__btn {
+		text-align: center;
+		display: block;
+		width: 260px;
+		height: 63px;
+		font-size: 18px;
+		line-height: 63px;
+		text-transform: uppercase;
+		color: #fff;
+		margin: 0 auto;
+		transition: 0.3s all;
+		&:hover {
+			background: #217b86;
+			color: #FFFFFF;
+		}
+
+	}
+}

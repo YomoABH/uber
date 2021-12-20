@@ -1,0 +1,93 @@
+._btn {
+	background:  #1EACC7 ;
+	box-shadow: inset 0px -3px 0px rgba(0, 0, 0, 0.12);
+	border-radius: 4px;
+}
+
+._label {
+	display: block;
+	width: 115px;
+	height: 27px;
+	background: #000000;
+	margin: 0 auto;
+	font-size: 11px;
+	line-height: 27px;
+	text-transform: uppercase;
+	text-align: center;
+}
+._label-w {
+	display: block;
+	width: 115px;
+	height: 27px;
+	background: #fff;
+	color: #000;
+	margin: 0 auto;
+	font-size: 11px;
+	line-height: 27px;
+	text-transform: uppercase;
+	text-align: center;
+}
+
+
+._title {
+	font-size: 38px;
+	line-height: 38px;
+	font-weight: 700;
+	text-transform: uppercase;
+	text-align: center;
+	color: #222222;
+}
+
+._title-b {
+	font-size: 38px;
+	line-height: 38px;
+	font-weight: 700;
+	text-transform: uppercase;
+	text-align: center;
+	color: #fff;
+}
+
+
+._subtitle {
+	font-size: 17px;
+	line-height: 21px;
+	color: #222222;
+	text-align: center;
+}
+
+._subtitle-w {
+	font-size: 17px;
+	line-height: 21px;
+	color: #fff;
+	text-align: center;
+}
+@media (max-width: 991px) {
+	._title,
+	._title-b {
+		font-size: 35px;
+	}
+	
+}
+
+@media (max-width: 767px) {
+	._title,
+	._title-b {
+		font-size: 30px;
+		line-height: 30px;
+	}
+
+}
+@media (max-width: 575px) {
+	._title,
+	._title-b {
+		font-size: 16px;
+		line-height: 16px;
+	}
+	._subtitle,
+	._subtitle-w {
+		font-size: 14px;
+		line-height: 21px;
+	}
+}
+
+

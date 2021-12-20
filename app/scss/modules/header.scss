@@ -1,0 +1,92 @@
+.header {		
+	position: relative;
+	background: #212121;
+	&__menu {	
+		padding: 0px 20px;
+	}
+
+	&__content {
+		background: rgba(0, 0, 0, 0.6);
+		padding: 18px 0px;
+		position: absolute;
+		width: 100%;
+	}
+
+	&__logo {
+	}
+
+	&__logo-img {
+		display: block;
+		margin-bottom: 5px;
+	}
+
+	&__logo-text {
+		font-weight: 200;
+		font-size: 13px;
+		line-height: 13px;
+	}
+
+	&__tell {
+		text-align: right;
+	}
+
+	&__tell-text {
+		font-weight: 300;
+		font-size: 12px;
+		line-height: 12px;
+		margin-bottom: 10px;
+	}
+
+	&__tell-number {
+		font-size: 22px;
+		line-height: 22px;
+		text-transform: uppercase;
+		color: #FFFFFF;
+	}
+
+	&__btn {
+		height: 46px;
+		width: 170px;
+		display: block;
+		font-size: 14px;
+		line-height: 46px;
+		text-transform: uppercase;
+		text-align: center;
+		color: #FFFFFF;
+		text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.21);
+		transition: 0.3s all ;
+		&:hover {
+			background: #217b86;
+			color: #FFFFFF;
+		}
+	}
+}
+.menu {
+
+	&__icon {
+	}
+
+	&__body {
+		min-height: 50px;
+	}
+
+	&__list {
+		display: flex;
+		justify-content: space-between
+	}
+
+	&__link {
+		font-weight: 300;
+		line-height: 50px;
+		color: #FFFFFF;
+		transition: 0.3s all;
+		&:hover {
+			text-decoration: underline;
+		}	
+
+	}
+}
+.icon-menu {
+}
+
+.xl-vizabilit { display: none;}

@@ -1,0 +1,104 @@
+.mobile {
+	min-height: 864px;
+	padding: 48px 0px 0px 0px;
+	background: url(../../img/bg/mobile_bg.jpg) center center/cover no-repeat;
+
+	&__container {
+	}
+
+	&__label {
+	}
+
+	&__title {
+		margin: 30px 0px 1px 0px;
+	}
+
+	&__subtitle {
+		margin-bottom: 30px;
+	}
+
+	&__items {
+	}
+
+	&__item {
+		width: 320px;
+		height: 280px;
+		margin: 10px auto;
+		padding: 92px 0px 0px 0px;
+		position: relative;
+	}
+
+	&__item-title {
+		font-size: 24px;
+		line-height: 31px;
+		text-align: center;
+		text-transform: uppercase;
+	}
+
+	&__plus {
+		cursor: pointer;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		width: 26px;
+		height: 26px;
+		background: #000000;
+		border-radius: 50%;
+		position: absolute;
+		left: 50%;
+		bottom: 35px;
+		transform: translateX(-50%);
+		&::before {
+			content: "";
+			width: 14px;
+			height: 2px;
+			background: #1EACC7;
+			transition: 0.3s all;
+		}
+		&::after {
+			content: "";
+			width: 2px;
+			height: 14px;
+			background: #1EACC7;
+			position: absolute;
+			left: 50%;
+			transition: 0.3s all;
+			transform: translateX(-50%);
+		}
+		&:hover {
+			&::before,
+			&::after {
+			background: #FF5656;
+			}
+		}
+	}
+}
+
+
+
+.mobile-item {
+
+	&__1 {
+		background: url(../../img/bg/card1.jpg) center center/cover no-repeat;
+	}
+
+	&__2 {
+		background: url(../../img/bg/card2.jpg) center center/cover no-repeat;
+	}
+
+	&__3 {
+		background: url(../../img/bg/card3.jpg) center center/cover no-repeat;
+	}
+
+	&__4 {
+		background: url(../../img/bg/card4.jpg) center center/cover no-repeat;
+	}
+
+	&__5 {
+		background: url(../../img/bg/card5.jpg) center center/cover no-repeat;	
+	}
+
+	&__6 {
+		background: url(../../img/bg/card6.jpg) center center/cover no-repeat;
+	}
+}

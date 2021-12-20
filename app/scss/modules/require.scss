@@ -1,0 +1,70 @@
+.require {
+	padding: 66px 0px 54px 0px;
+	
+
+	&__container {
+	}
+
+	&__label {
+	}
+
+	&__title {
+		margin: 30px 0px 0px 0px;
+	}
+
+	&__block {
+		margin: 33px 0px;
+	}
+
+	&__title-list {
+		font-size: 22px;
+		line-height: 24px;
+		color: #1CA8C3;
+		margin-bottom: 15px;
+	}
+
+	&__list {
+		padding: 0px 0px 0px 60px;
+		li{
+			font-weight: 300;
+			font-size: 17px;
+			line-height: 24px;
+			color: #222222;
+			margin-bottom: 5px;
+			position: relative;
+			&:last-child {
+				margin-bottom: 0;
+			}
+			&::before {
+				content: "";
+				display: inline-block;
+				position: absolute;
+				left: -31px;
+				top: 2px;
+				width: 21px;
+				height: 20px;
+				background: url(../../img/icon/check_blue.png) center center/cover no-repeat;
+				color: aqua;
+			}
+		}
+	}
+
+	&__subtitle {
+		font-weight: 300;
+		font-size: 17px;
+		line-height: 24px;
+		color: #1CA8C3;
+		margin: 25px 0px 0px 0px;
+	}
+}
+
+.warning {
+	.require__title-list {
+		color: #FF5656;
+	}
+	.require__list li {
+		&::before{
+		background: url(../../img/icon/check_red.png) center center/cover no-repeat;
+		}
+	}
+}
